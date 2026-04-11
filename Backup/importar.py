@@ -1,7 +1,9 @@
 from pymongo import MongoClient
 import json
+import os
 
-ruta = r"C:\Users\Hector\Desktop\Clase\Lenguaje Phyton\Trabajos\TFG\Centro Comercial\productos.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ruta = os.path.join(BASE_DIR, "..", "productos.json")
 
 client = MongoClient("mongodb://localhost:27017/")
 db = client["unionshop"]
