@@ -1,0 +1,1438 @@
+{
+    "Planta Baja": {
+        "FoodToGo": {
+            "productos": [
+                {
+                    "nombre": "Pan",
+                    "precio": 1,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Leche",
+                    "precio": 2,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Huevos",
+                    "precio": 3,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Arroz",
+                    "precio": 1.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Pasta",
+                    "precio": 1.2,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Aceite de oliva",
+                    "precio": 4.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Sal",
+                    "precio": 0.8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Azucar",
+                    "precio": 1.1,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Harina",
+                    "precio": 0.9,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Atun en lata",
+                    "precio": 1.3,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Tomate frito",
+                    "precio": 1.0,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Yogur",
+                    "precio": 0.6,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Mantequilla",
+                    "precio": 2.2,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Jamon york",
+                    "precio": 2.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Queso",
+                    "precio": 3.0,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Chorizo",
+                    "precio": 3.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Salchichas",
+                    "precio": 1.8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Pollo",
+                    "precio": 5.0,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Ternera",
+                    "precio": 8.0,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Merluza",
+                    "precio": 6.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Sardinas en lata",
+                    "precio": 1.2,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Lentejas",
+                    "precio": 1.0,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Garbanzos",
+                    "precio": 1.1,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Judias blancas",
+                    "precio": 1.0,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Patatas",
+                    "precio": 1.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Zanahorias",
+                    "precio": 0.9,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Cebollas",
+                    "precio": 0.8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Tomates",
+                    "precio": 1.2,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Lechuga",
+                    "precio": 0.9,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Manzanas",
+                    "precio": 1.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Platanos",
+                    "precio": 1.2,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Naranjas",
+                    "precio": 1.3,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Zumo de naranja",
+                    "precio": 2.0,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Cereales",
+                    "precio": 2.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Galletas",
+                    "precio": 1.5,
+                    "stock": 0
+                },
+                {
+                    "nombre": "Chocolate",
+                    "precio": 1.8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Mermelada",
+                    "precio": 2.0,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Cafe",
+                    "precio": 3.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Te",
+                    "precio": 2.0,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Refresco",
+                    "precio": 1.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Agua mineral",
+                    "precio": 0.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Cerveza",
+                    "precio": 1.2,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Vino",
+                    "precio": 5.0,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Mayonesa",
+                    "precio": 2.2,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Ketchup",
+                    "precio": 1.8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Preservativos",
+                    "precio": 15.0,
+                    "stock": 10
+                }
+            ]
+        },
+        "PetWorld": {
+            "productos": [
+                {
+                    "nombre": "Pienso perro",
+                    "precio": 15,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Pienso gato",
+                    "precio": 12,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Arena para gatos",
+                    "precio": 8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Correa",
+                    "precio": 10,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Collar",
+                    "precio": 7,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Juguete perro",
+                    "precio": 6,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Juguete gato",
+                    "precio": 5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Rascador gato",
+                    "precio": 20,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Cama mascota",
+                    "precio": 25,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Comedero",
+                    "precio": 8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Bebedero",
+                    "precio": 7,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Transportin",
+                    "precio": 30,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Champu mascota",
+                    "precio": 9,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Antiparasitario",
+                    "precio": 12,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Snacks perro",
+                    "precio": 4,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Pienso pajaro",
+                    "precio": 6,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Jaula pajaro",
+                    "precio": 35,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Acuario",
+                    "precio": 50,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Comida pez",
+                    "precio": 5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Filtro acuario",
+                    "precio": 20,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Arena reptil",
+                    "precio": 10,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Terrario",
+                    "precio": 60,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Rueda hamster",
+                    "precio": 12,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Jaula hamster",
+                    "precio": 25,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Pienso conejo",
+                    "precio": 8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Corta unas mascota",
+                    "precio": 9,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Cepillo mascota",
+                    "precio": 7,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Ropa perro",
+                    "precio": 14,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Hueso masticable",
+                    "precio": 5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Catnip",
+                    "precio": 6,
+                    "stock": 10
+                },
+                {
+                    "nombre": "churu de gato",
+                    "precio": 1.5,
+                    "stock": 10
+                }
+            ]
+        },
+        "Pelochos": {
+            "productos": [
+                {
+                    "nombre": "Muneca",
+                    "precio": 15,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Coche teledirigido",
+                    "precio": 35,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Puzzle",
+                    "precio": 12,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Lego",
+                    "precio": 40,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Pelota",
+                    "precio": 8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Pizarra magnetica",
+                    "precio": 18,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Juego de mesa",
+                    "precio": 22,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Figura accion",
+                    "precio": 14,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Peluche",
+                    "precio": 16,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Pinturas y manualidades",
+                    "precio": 10,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Patinete",
+                    "precio": 45,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Bicicleta",
+                    "precio": 80,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Disfraz",
+                    "precio": 20,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Balon futbol",
+                    "precio": 18,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Construcciones madera",
+                    "precio": 25,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Tren de juguete",
+                    "precio": 35,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Cocinita",
+                    "precio": 45,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Muneco bebe",
+                    "precio": 22,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Castillo princesas",
+                    "precio": 55,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Pista de coches",
+                    "precio": 50,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Telescopio infantil",
+                    "precio": 30,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Microscopio infantil",
+                    "precio": 28,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Kit de magia",
+                    "precio": 20,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Plastilina",
+                    "precio": 8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Globos de agua",
+                    "precio": 5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Comba",
+                    "precio": 6,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Yo-yo",
+                    "precio": 7,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Pistola de agua",
+                    "precio": 10,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Tienda de campana infantil",
+                    "precio": 40,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Walkie talkie",
+                    "precio": 25,
+                    "stock": 10
+                }
+            ]
+        },
+        "CiberMarket": {
+            "productos": [
+                {
+                    "nombre": "Movil",
+                    "precio": 200,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Portatil",
+                    "precio": 800,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Tablet",
+                    "precio": 300,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Auriculares",
+                    "precio": 50,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Altavoz bluetooth",
+                    "precio": 40,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Smartwatch",
+                    "precio": 150,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Teclado",
+                    "precio": 35,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Raton",
+                    "precio": 25,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Monitor",
+                    "precio": 250,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Impresora",
+                    "precio": 120,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Disco duro externo",
+                    "precio": 80,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Pendrive",
+                    "precio": 15,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Cargador inalambrico",
+                    "precio": 20,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Cable HDMI",
+                    "precio": 10,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Webcam",
+                    "precio": 60,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Microfono",
+                    "precio": 45,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Funda portatil",
+                    "precio": 18,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Soporte movil",
+                    "precio": 12,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Router WiFi",
+                    "precio": 70,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Consola",
+                    "precio": 400,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Mando consola",
+                    "precio": 60,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Tarjeta grafica",
+                    "precio": 350,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Memoria RAM",
+                    "precio": 45,
+                    "stock": 10
+                },
+                {
+                    "nombre": "SSD 500GB",
+                    "precio": 65,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Placa base",
+                    "precio": 180,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Fuente de alimentacion",
+                    "precio": 90,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Ventilador CPU",
+                    "precio": 40,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Caja ordenador",
+                    "precio": 75,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Tarjeta de sonido",
+                    "precio": 55,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Hub USB",
+                    "precio": 20,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Adaptador WiFi USB",
+                    "precio": 15,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Lampara LED escritorio",
+                    "precio": 25,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Silla gaming",
+                    "precio": 300,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Alfombrilla raton XL",
+                    "precio": 18,
+                    "stock": 10
+                }
+            ]
+        }
+    },
+    "Planta 1": {
+        "ModaStyle": {
+            "productos": [
+                {
+                    "nombre": "Camiseta",
+                    "precio": 10,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Pantalon",
+                    "precio": 20,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Chaqueta",
+                    "precio": 30,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Calcetines",
+                    "precio": 3,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Ropa interior",
+                    "precio": 8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Vestido",
+                    "precio": 25,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Falda",
+                    "precio": 18,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Abrigo",
+                    "precio": 60,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Jersey",
+                    "precio": 22,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Sudadera",
+                    "precio": 28,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Vaqueros",
+                    "precio": 35,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Shorts",
+                    "precio": 15,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Pijama",
+                    "precio": 20,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Bufanda",
+                    "precio": 12,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Gorro",
+                    "precio": 10,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Guantes",
+                    "precio": 9,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Cinturon",
+                    "precio": 14,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Camisa",
+                    "precio": 22,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Traje",
+                    "precio": 90,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Zapatillas",
+                    "precio": 45,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Botas",
+                    "precio": 70,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Sandalias",
+                    "precio": 30,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Zapatos",
+                    "precio": 55,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Bañador",
+                    "precio": 18,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Chubasquero",
+                    "precio": 35,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Leggings",
+                    "precio": 15,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Blazer",
+                    "precio": 50,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Polo",
+                    "precio": 20,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Chaleco",
+                    "precio": 25,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Corbata",
+                    "precio": 16,
+                    "stock": 10
+                }
+            ]
+        },
+        "La Casa del Arbol": {
+            "productos": [
+                {
+                    "nombre": "Cojin",
+                    "precio": 12,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Manta",
+                    "precio": 20,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Sabanas",
+                    "precio": 25,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Funda nordica",
+                    "precio": 35,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Toalla",
+                    "precio": 10,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Alfombra",
+                    "precio": 40,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Cortinas",
+                    "precio": 30,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Lampara de mesa",
+                    "precio": 25,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Lampara de pie",
+                    "precio": 45,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Marco de fotos",
+                    "precio": 8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Espejo",
+                    "precio": 35,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Jarron",
+                    "precio": 15,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Vela decorativa",
+                    "precio": 7,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Porta velas",
+                    "precio": 10,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Cuadro",
+                    "precio": 30,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Estanteria",
+                    "precio": 60,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Perchero",
+                    "precio": 25,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Cesto de mimbre",
+                    "precio": 18,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Organizador cajones",
+                    "precio": 12,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Reloj de pared",
+                    "precio": 20,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Planta artificial",
+                    "precio": 15,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Maceta",
+                    "precio": 8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Set de cocina",
+                    "precio": 45,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Juego de vasos",
+                    "precio": 15,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Juego de platos",
+                    "precio": 25,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Servilletero",
+                    "precio": 6,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Mantel",
+                    "precio": 14,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Bandeja decorativa",
+                    "precio": 12,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Caja decorativa",
+                    "precio": 10,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Persianas",
+                    "precio": 50,
+                    "stock": 10
+                }
+            ]
+        },
+        "Weolor": {
+            "productos": [
+                {
+                    "nombre": "Perfume mujer",
+                    "precio": 45,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Perfume hombre",
+                    "precio": 40,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Colonia",
+                    "precio": 25,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Desodorante",
+                    "precio": 5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Crema hidratante",
+                    "precio": 12,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Crema facial",
+                    "precio": 18,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Serum",
+                    "precio": 22,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Mascarilla facial",
+                    "precio": 8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Gel de ducha",
+                    "precio": 4,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Champu",
+                    "precio": 5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Acondicionador",
+                    "precio": 5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Mascarilla pelo",
+                    "precio": 10,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Laca de unas",
+                    "precio": 6,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Quitaesmalte",
+                    "precio": 3,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Maquillaje base",
+                    "precio": 15,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Rimel",
+                    "precio": 12,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Labial",
+                    "precio": 8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Sombra de ojos",
+                    "precio": 10,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Desmaquillante",
+                    "precio": 7,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Crema de manos",
+                    "precio": 6,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Protector solar",
+                    "precio": 14,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Aceite corporal",
+                    "precio": 16,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Exfoliante",
+                    "precio": 10,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Agua micelar",
+                    "precio": 8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Contorno de ojos",
+                    "precio": 20,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Aftershave",
+                    "precio": 15,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Espuma de afeitar",
+                    "precio": 6,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Cuchillas de afeitar",
+                    "precio": 8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Pasta de dientes",
+                    "precio": 3,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Enjuague bucal",
+                    "precio": 5,
+                    "stock": 10
+                }
+            ]
+        }
+    },
+    "Planta 2": {
+        "Bolera": {
+            "productos": [
+                {
+                    "nombre": "Partida de bowling",
+                    "precio": 5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Alquiler zapatos",
+                    "precio": 2,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Partida doble",
+                    "precio": 9,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Bono 5 partidas",
+                    "precio": 20,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Refresco",
+                    "precio": 2.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Cerveza",
+                    "precio": 3,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Agua",
+                    "precio": 1.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Patatas fritas",
+                    "precio": 3.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Nachos",
+                    "precio": 4,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Perrito caliente",
+                    "precio": 3.5,
+                    "stock": 10
+                }
+            ]
+        },
+        "Cines": {
+            "productos": [
+                {
+                    "nombre": "Entrada adulto",
+                    "precio": 8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Entrada niño",
+                    "precio": 5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Entrada jubilado",
+                    "precio": 5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Palomitas pequenas",
+                    "precio": 3,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Palomitas medianas",
+                    "precio": 4.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Palomitas grandes",
+                    "precio": 6,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Refresco pequeno",
+                    "precio": 2.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Refresco mediano",
+                    "precio": 3.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Refresco grande",
+                    "precio": 4.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Agua",
+                    "precio": 1.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Combo palomitas y refresco",
+                    "precio": 8,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Chocolatinas",
+                    "precio": 2,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Gominolas",
+                    "precio": 2,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Nachos con queso",
+                    "precio": 4.5,
+                    "stock": 10
+                }
+            ]
+        },
+        "Restaurante": {
+            "productos": [
+                {
+                    "nombre": "Ensalada mixta",
+                    "precio": 6,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Sopa del dia",
+                    "precio": 4,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Croquetas",
+                    "precio": 7,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Patatas bravas",
+                    "precio": 5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Jamon iberico",
+                    "precio": 12,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Hamburguesa",
+                    "precio": 9,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Bocadillo",
+                    "precio": 5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Pizza",
+                    "precio": 10,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Pasta carbonara",
+                    "precio": 9,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Pollo asado",
+                    "precio": 11,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Salmon a la plancha",
+                    "precio": 13,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Filete de ternera",
+                    "precio": 14,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Menu del dia",
+                    "precio": 10,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Tarta de queso",
+                    "precio": 4,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Helado",
+                    "precio": 3,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Flan",
+                    "precio": 3,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Tiramisu",
+                    "precio": 4.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Cafe",
+                    "precio": 1.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Zumo natural",
+                    "precio": 2.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Refresco",
+                    "precio": 2,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Cerveza",
+                    "precio": 2.5,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Vino copa",
+                    "precio": 3,
+                    "stock": 10
+                },
+                {
+                    "nombre": "Agua",
+                    "precio": 1,
+                    "stock": 10
+                }
+            ]
+        }
+    }
+}
