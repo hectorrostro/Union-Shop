@@ -100,7 +100,7 @@
                 {
                     "nombre": "Merluza",
                     "precio": 6.5,
-                    "stock": 10
+                    "stock": 5
                 },
                 {
                     "nombre": "Sardinas en lata",
@@ -140,7 +140,7 @@
                 {
                     "nombre": "Tomates",
                     "precio": 1.2,
-                    "stock": 10
+                    "stock": 8
                 },
                 {
                     "nombre": "Lechuga",
@@ -200,12 +200,12 @@
                 {
                     "nombre": "Refresco",
                     "precio": 1.5,
-                    "stock": 10
+                    "stock": 5
                 },
                 {
                     "nombre": "Agua mineral",
                     "precio": 0.5,
-                    "stock": 10
+                    "stock": 4
                 },
                 {
                     "nombre": "Cerveza",
@@ -230,7 +230,7 @@
                 {
                     "nombre": "Preservativos",
                     "precio": 15.0,
-                    "stock": 10
+                    "stock": 9
                 }
             ]
         },
