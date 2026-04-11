@@ -6,7 +6,8 @@ from datetime import datetime
 client = MongoClient("mongodb://localhost:27017/")
 db = client["unionshop"]
 
-ruta_carrito = r"C:\Users\Hector\Desktop\Clase\Lenguaje Phyton\Trabajos\TFG\Centro Comercial\carrito.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ruta_carrito = os.path.join(BASE_DIR, "carrito.json")
 
 
 def cargar_centro():
@@ -61,6 +62,7 @@ def confirmar_compra():
     carrito.clear()
     guardar_carrito()
     print("\nCompra confirmada! Total:", total, "€")
+
 
 centro = cargar_centro()
 carrito = cargar_carrito()
