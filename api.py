@@ -3,10 +3,11 @@ from pymongo import MongoClient
 from datetime import datetime
 import json
 import os
+from dotenv import load_dotenv
 
+load_dotenv()
 app = FastAPI()
-
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient(os.getenv("MONGO_URI"))
 db = client["unionshop"]
 
 ruta_productos = "productos.json"

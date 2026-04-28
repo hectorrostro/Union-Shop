@@ -2,8 +2,10 @@ import json
 import os
 from pymongo import MongoClient
 from datetime import datetime
+from dotenv import load_dotenv
 
-client = MongoClient("mongodb://localhost:27017/")
+load_dotenv()
+client = MongoClient(os.getenv("MONGO_URI"))
 db = client["unionshop"]
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
