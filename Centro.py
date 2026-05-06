@@ -4,13 +4,17 @@ from pymongo import MongoClient
 from datetime import datetime
 from dotenv import load_dotenv
 
+# load_dotenv() Carga las credenciales(contraseñas) del archivo .env. 
 load_dotenv()
-client = MongoClient(os.getenv("MONGO_URI"))
-db = client["unionshop"]
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-ruta_carrito = os.path.join(BASE_DIR, "carrito.json")
+client = MongoClient(os.getenv("MONGO_URI")) # crea la conexión a MongoDB Atlas. MongoClient es el objeto que representa la conexión, y le pasamos la URL de conexión que está guardada en el .env.
+db = client["unionshop"] # Selecciona la base de datos que se llama "unionshop". Es decir "conéctame a MongoDB y dentro de MongoDB ve a la base de datos unionshop".
 
+# Encuentra la carpeta donde está guardado Centro.py (os.path y abspath sirven para usar rutas fijas)
+carpeta_proyecto = os.path.dirname(os.path.abspath(__file__))
+
+# Construye la ruta completa hasta carrito.json dentro de esa carpeta
+ruta_carrito = os.path.join(carpeta_proyecto, "carrito.json")
 
 def cargar_centro():
     centro = {}
