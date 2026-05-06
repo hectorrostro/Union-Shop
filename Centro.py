@@ -1,10 +1,14 @@
 import json
 import os
+
+#importa la librería que nos permite conectarnos a MongoDB Atlas.
 from pymongo import MongoClient
 from datetime import datetime
+
+#sirve para leer el archivo .env donde está guardada la contraseña de MongoDB sin escribirla directamente en el código.
 from dotenv import load_dotenv
 
-# load_dotenv() Carga las credenciales(contraseñas) del archivo .env. 
+# load_dotenv() Carga las credenciales(contraseñas) del archivo .env, en lugar de texto plano.
 load_dotenv()
 
 client = MongoClient(os.getenv("MONGO_URI")) # crea la conexión a MongoDB Atlas. MongoClient es el objeto que representa la conexión, y le pasamos la URL de conexión que está guardada en el .env.
@@ -16,23 +20,35 @@ carpeta_proyecto = os.path.dirname(os.path.abspath(__file__))
 # Construye la ruta completa hasta carrito.json dentro de esa carpeta
 ruta_carrito = os.path.join(carpeta_proyecto, "carrito.json")
 
-def cargar_centro():
-    centro = {}
+def cargar_centro():  # crea un diccionario vacío
+    centro = {} #Crea un diccionario vacío llamado centro donde se irán guardando los datos organizados por planta y tienda.
+
+    #db["productos"] — accede a la colección "productos" de MongoDB
+    #.find() — obtiene todos los documentos que hay dentro de esa colección
+    #for doc in  va recorriendo los documentos uno por uno, cada vez que da una vuelta doc contiene un documento diferente
     for doc in db["productos"].find():
+
         planta = doc["planta"]
         tienda = doc["tienda"]
-        if planta not in centro:
-            centro[planta] = {}
-        centro[planta][tienda] = {"productos": doc["productos"]}
+        if planta not in centro:  #comprueba si esa planta ya existe en el diccionario centro
+            centro[planta] = {}   #Si no existe, la crea.
+
+        centro[planta][tienda] = {"productos": doc["productos"]} # Guarda los productos de la tienda dentro de su planta en el diccionario centro 
+    return centro #Es la última línea de la función. Simplemente devuelve el diccionario centro ya completo con todas las plantas, tiendas y productos.
     return centro
 
-
+                                            ######## ==========================================
+                                            # Devuelve el diccionario centro completo
+                                            # ==========================================
+  
+#Esta función recibe tres parámetros:
 def guardar_tienda(planta, tienda, productos):
+    # busca en MongoDB un documento y lo actualiza
     db["productos"].update_one(
+        
         {"planta": planta, "tienda": tienda},
         {"$set": {"productos": productos}}
     )
-
 
 def cargar_carrito():
     doc = db["carrito"].find_one({"_id": "carrito"})
