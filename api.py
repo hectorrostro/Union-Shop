@@ -3,10 +3,11 @@ from pymongo import MongoClient
 from datetime import datetime
 import json
 import os
+from dotenv import load_dotenv
 
+load_dotenv()
 app = FastAPI()
-
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient(os.getenv("MONGO_URI"))
 db = client["unionshop"]
 
 ruta_productos = "productos.json"
@@ -182,3 +183,11 @@ def cambiar_stock(planta: str, tienda: str, indice: int, nuevo_stock: int):
         return {"mensaje": "Stock actualizado"}
     except Exception:
         raise HTTPException(status_code=400, detail="Error al actualizar stock")
+    
+@app.get("/test")
+def test_conexion():
+    documentos = []
+    for doc in db["tfc"].find():
+        doc.pop("_id")
+        documentos.append(doc)
+    return {"documentos": documentos}
