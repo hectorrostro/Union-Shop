@@ -10,7 +10,7 @@
                 {
                     "nombre": "Leche",
                     "precio": 2.0,
-                    "stock": 10
+                    "stock": 9
                 },
                 {
                     "nombre": "Huevos",
@@ -733,7 +733,7 @@
                 {
                     "nombre": "Pantalon",
                     "precio": 20.0,
-                    "stock": 10
+                    "stock": 6
                 },
                 {
                     "nombre": "Chaqueta",
