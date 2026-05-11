@@ -7,6 +7,17 @@ from dotenv import load_dotenv
 
 load_dotenv()
 app = FastAPI()
+
+# Configura CORS para permitir peticiones desde el navegador (frontend)
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 client = MongoClient(os.getenv("MONGO_URI"))
 db = client["unionshop"]
 
@@ -183,11 +194,3 @@ def cambiar_stock(planta: str, tienda: str, indice: int, nuevo_stock: int):
         return {"mensaje": "Stock actualizado"}
     except Exception:
         raise HTTPException(status_code=400, detail="Error al actualizar stock")
-    
-@app.get("/test")
-def test_conexion():
-    documentos = []
-    for doc in db["tfc"].find():
-        doc.pop("_id")
-        documentos.append(doc)
-    return {"documentos": documentos}
