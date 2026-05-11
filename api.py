@@ -7,6 +7,17 @@ from dotenv import load_dotenv
 
 load_dotenv()
 app = FastAPI()
+
+# Configura CORS para permitir peticiones desde el navegador (frontend)
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 client = MongoClient(os.getenv("MONGO_URI"))
 db = client["unionshop"]
 
