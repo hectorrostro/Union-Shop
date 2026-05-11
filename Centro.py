@@ -45,8 +45,9 @@ def cargar_centro():  # crea un diccionario vacío
 def guardar_tienda(planta, tienda, productos):
     # busca en MongoDB un documento y lo actualiza
     db["productos"].update_one(
-        
+        #este es el filtro, busca el documento que tenga esa planta y esa tienda
         {"planta": planta, "tienda": tienda},
+        #reemplaza los productos con los nuevos, con set solo cambias lo que le indicas, el resto sigue igual.
         {"$set": {"productos": productos}}
     )
 
